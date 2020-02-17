@@ -42,7 +42,7 @@ RUN mkdir -p /root/app
 WORKDIR /root/app
 
 # Expone los puertos
-EXPOSE 8080 4848
+EXPOSE 8080 4848 1527
 
 # Establece la variable de entorno para definir el prompt de la terminal
 ENV PS1="[LabProg-Server:\W]\$ "
