@@ -2,7 +2,7 @@
 # FI-UNPSJB-PM
 #
 # Imagen para la ejecución en Gitlab-CI
-FROM docker:latest
+FROM docker:dind
 
 # Instala paquetes
 RUN apk add --no-cache docker-compose
